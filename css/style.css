@@ -1,0 +1,62 @@
+body {
+    position: relative; 
+    font-family: 'Open Sans', sans-serif;
+  }
+
+h1 {
+    color: #242424;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#header {
+    background-image: url("../img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #242424;
+    height: 400px;
+}
+  
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  
+.navbar {
+    margin-bottom: 0px;
+  }
+
+  
+.affix ~ .container-fluid {
+     position: relative;
+
+  }
+
+#about {
+    padding-top:50px;
+    padding-bottom: 50px;
+    height:auto;
+    color: #f7fcf5; 
+    background-color: #e91e23;
+}
+  
+#characters {
+    padding-top:50px;
+    padding-bottom:50px;
+    height:auto;
+    color: #f7fcf5; 
+    background-color: #02b2e7;
+}
+
+#episodes img {
+    margin-bottom: 10px;
+}
+  
+#episodes {
+    padding-top:50px;
+    padding-bottom:50px;
+    height:auto;
+    color: #f7fcf5; 
+    background-color: #fabc16;
+}
